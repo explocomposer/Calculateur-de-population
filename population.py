@@ -8,7 +8,7 @@ print(population_start,women,birthrate,past_generation)
 
 result = birthrate * women + population_start - past_generation
 
-print("""la population actuelle est de",result,"habitants.
+print("la population actuelle est de",result,"""habitants.
 Calcul de la génération suivante:""")
 
 while True:
@@ -25,4 +25,5 @@ while True:
 
     result = birthrate * women + population_start - past_generation
 
-    print("la population actuelle est de",result,"habitants.")
+    print("la population actuelle est de",result,"""habitants.
+    Calcul de la génération suivante:""")
