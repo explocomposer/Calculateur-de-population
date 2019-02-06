@@ -23,6 +23,9 @@ while True:
             population_start = int(result)
             women = int(population_start / 2)
             birthrate = int(birthrate)
+
+            print(population_start, women, birthrate, past_generation)
+
             calcul()
             i += 1
             if i == 10:
